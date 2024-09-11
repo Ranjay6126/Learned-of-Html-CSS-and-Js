@@ -1,0 +1,53 @@
+.box{
+    height:100px;
+    width: 300px;
+    background-color: pink;
+
+
+    /* animation-name: fontAnimation; */
+
+/* animation-name:colorAnimate; */
+
+animation-name: widthAnimate;
+
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count:  /*3 ; */infinite;
+    /* animation-direction: normal; */
+    animation-direction:alternate ;
+
+      /* shorthand method of above css */
+animation: widthAnimate 3s ease-in 0s infinite normal;
+
+}
+
+@keyframes fontAnimation{
+    from{
+        font-size: 20px;
+        background-color: blue;
+    }
+    to {
+        font-size: 40px;
+        background-color: green;
+        border-radius: 15px;
+    }
+}
+
+@keyframes colorAnimate{
+    from{
+
+    }
+    to {
+        
+    }
+}
+
+
+@keyframes widthAnimate{
+    from{
+        width: 10px;
+    }
+    to{
+       width: 400px;
+    }
+}

@@ -1,0 +1,27 @@
+div {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(85, 180, 85, 0.293);
+    box-shadow: 4px 4px 4px black;
+    margin: 10px;
+    border-radius: 15%;
+    background-image: url("background color2.png");
+    color: black;
+    text-align: center;
+    font: size 100px;
+    img{
+        width: 100px;
+    }
+    display :inline ;
+    border-radius: 15;
+
+    transition: 2s;
+
+  
+}
+
+
+.card:hover{
+    box-shadow: 0 8px 16px black;
+}
+

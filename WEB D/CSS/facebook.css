@@ -1,0 +1,26 @@
+*{
+   
+    font-family:courier new;
+}
+
+h1{
+     color: #1b74e4; 
+}
+
+ #searchid{
+    background: black;
+    color:white;
+    
+ }
+
+/* 
+ /*id selector make id=log and id=reg*/
+ /* #log,#reg{
+    background:aqua;
+ } */
+
+ /*for class selector */
+
+ .userg{
+    background: aqua;
+ }
