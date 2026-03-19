@@ -91,6 +91,28 @@ CSS3
 
 JavaScript (ES6)
 
+Tech Used
+
+React
+
+JavaScript
+
+HTML
+
+CSS
+
+Future Improvements
+
+More React projects
+
+Advanced Hooks
+
+API Integration
+
+Routing
+
+State Management
+
 VS Code
 
 Chrome Developer Tools
